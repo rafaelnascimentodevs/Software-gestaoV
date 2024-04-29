@@ -2,24 +2,26 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.culysoft.gestaovendas.modelo.dominio;
+package modelo.entidade;
 
 /**
  *
  * @author rafael
  */
-public class Categoria {
+public class Cliente {
     private Long id;
     private String nome;
-    private String descricao;
+    private String telefone;
+    private String morada;
 
-    public Categoria() {
+    public Cliente() {
     }
 
-    public Categoria(Long id, String nome, String descricao) {
+    public Cliente(Long id, String nome, String telefone, String morada) {
         this.id = id;
         this.nome = nome;
-        this.descricao = descricao;
+        this.telefone = telefone;
+        this.morada = morada;
     }
 
     public Long getId() {
@@ -38,17 +40,21 @@ public class Categoria {
         this.nome = nome;
     }
 
-    public String getDescricao() {
-        return descricao;
+    public String getTelefone() {
+        return telefone;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }
-    
 
+    public String getMorada() {
+        return morada;
+    }
 
-    
+    public void setMorada(String morada) {
+        this.morada = morada;
+    }
     
     
 }

@@ -1,0 +1,3 @@
+com/culysoft/gestaovendas/modelo/conexao/ConexaoMysql.class
+com/culysoft/gestaovendas/modelo/dominio/Estoque.class
+com/culysoft/gestaovendas/modelo/conexao/Conexao.class
